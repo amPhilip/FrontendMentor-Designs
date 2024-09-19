@@ -28,10 +28,16 @@
     <section class="product_card">
       <div class="card">
         <div class="img_card">
-          <img
-            src="images/image-product-desktop.jpg"
-            alt="gabrielle-chanel-perfume"
-          />
+            <picture>
+                <!-- Image for mobile -->
+                <source srcset="images/image-product-mobile.jpg" media="(max-width: 630px)">
+                
+                <!-- Image for desktop -->
+                <img
+                src="images/image-product-desktop.jpg"
+                alt="gabrielle-chanel-perfume"
+              />
+              </picture>
         </div>
         <div class="info_card">
           <div class="desc">
